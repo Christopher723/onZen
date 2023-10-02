@@ -136,24 +136,24 @@ struct HomeView: View {
             
             Spacer()
             VStack{
-                QuestionButton(inputText: $inputText, isReflect: $isReflect, activeSheet: $activeSheet, label: "Who", question: isReflect ?
-                               "Who did something nice for you today":
-                                "Who hurt you")
+                QuestionButton(inputText: $inputText, isReflect: $isReflect, activeSheet: $activeSheet, label: "Who?", question: isReflect ?
+                               "Who did something nice for you today?":
+                                "Who hurt you?")
                 QuestionButton(inputText: $inputText, isReflect: $isReflect,activeSheet: $activeSheet,
-                               label: "What", question: isReflect ?
-                    "What was the best part of your day":
-                    "What happened")
-                QuestionButton(inputText: $inputText,isReflect: $isReflect,activeSheet: $activeSheet, label: "When", question: isReflect ?
-                    "When was the best part of your day":
-                    "When did this happened"
+                               label: "What?", question: isReflect ?
+                    "What was the best part of your day?":
+                    "What happened?")
+                QuestionButton(inputText: $inputText,isReflect: $isReflect,activeSheet: $activeSheet, label: "When?", question: isReflect ?
+                    "When was the best part of your day?":
+                    "When did this happen?"
                     
                 )
-                QuestionButton(inputText: $inputText, isReflect: $isReflect,activeSheet: $activeSheet, label: "Where", question: isReflect ?
-                    "Where is somewhere you had fun":
-                    "Where did this happened")
-                QuestionButton(inputText: $inputText, isReflect: $isReflect,activeSheet: $activeSheet, label: "Why", question: isReflect ?
-                    "Why did you have such a good day":
-                    "Why did this happened")
+                QuestionButton(inputText: $inputText, isReflect: $isReflect,activeSheet: $activeSheet, label: "Where?", question: isReflect ?
+                    "Where is somewhere you had fun?":
+                    "Where did this happen?")
+                QuestionButton(inputText: $inputText, isReflect: $isReflect,activeSheet: $activeSheet, label: "Why?", question: isReflect ?
+                    "Why did you have such a good day?":
+                    "Why did this happen?")
             
                 
             }
