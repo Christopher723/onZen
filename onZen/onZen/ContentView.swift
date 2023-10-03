@@ -92,8 +92,7 @@ struct ToggleView: View {
             Spacer()
             
             Toggle("", isOn: $isReflect)
-                .tint(.buttonBlue)
-                .toggleStyle(SwitchToggleStyle(tint: .buttonBlue))
+                .toggleStyle(SwitchToggleStyle(tint: .buttonPink))
             
             
             Spacer().frame(width:65)
@@ -131,6 +130,8 @@ struct HomeView: View {
             }
             
             Image(isReflect ? "test2" : "test")
+                .resizable()
+                .frame(width: 240, height: 150)
             
             
             
