@@ -94,7 +94,7 @@ struct ToggleView: View {
             Spacer().frame(width:5)
             
             Toggle("", isOn: $isReflect)
-                .toggleStyle(SwitchToggleStyle(tint: .backPink))
+                .toggleStyle(SymbolToggleStyle(systemImage: "heart", activeColor: .backPink))
                 .padding()
             
             Spacer().frame(width:41)

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15F068AB2ACE04E800243F3A /* toggleSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F068AA2ACE04E800243F3A /* toggleSwitch.swift */; };
 		3A0577732ACB2FE000E38F6E /* onZenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0577722ACB2FE000E38F6E /* onZenApp.swift */; };
 		3A0577752ACB2FE000E38F6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0577742ACB2FE000E38F6E /* ContentView.swift */; };
 		3A05777A2ACB2FE100E38F6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0577792ACB2FE100E38F6E /* Preview Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15F068AA2ACE04E800243F3A /* toggleSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toggleSwitch.swift; sourceTree = "<group>"; };
 		3A05776F2ACB2FE000E38F6E /* onZen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onZen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A0577722ACB2FE000E38F6E /* onZenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onZenApp.swift; sourceTree = "<group>"; };
 		3A0577742ACB2FE000E38F6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		3A0577882ACB323400E38F6E /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
+				15F068AA2ACE04E800243F3A /* toggleSwitch.swift */,
 				3A05778B2ACB328A00E38F6E /* InfoButton.swift */,
 				3A05778D2ACB329000E38F6E /* affirmButton.swift */,
 				3A05778F2ACB329400E38F6E /* exitButton.swift */,
@@ -173,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A05778C2ACB328A00E38F6E /* InfoButton.swift in Sources */,
+				15F068AB2ACE04E800243F3A /* toggleSwitch.swift in Sources */,
 				3A0577752ACB2FE000E38F6E /* ContentView.swift in Sources */,
 				3A0577732ACB2FE000E38F6E /* onZenApp.swift in Sources */,
 				3A0577812ACB319100E38F6E /* screen2.swift in Sources */,
