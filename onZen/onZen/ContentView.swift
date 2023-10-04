@@ -82,32 +82,34 @@ struct ToggleView: View {
     var body: some View {
         HStack(){
             
-            Spacer().frame(width:35)
+            Spacer().frame(width:22)
             Text("Release")
-                .font(.system(size: 23, weight: isReflect ? .regular : .heavy))
-                .foregroundColor(isReflect ? .gray : .buttonPink)
+                .foregroundColor(isReflect ? .gray : .releaseToggle)
                 .onTapGesture{
                     if isReflect{
                         isReflect.toggle()
                     }
                 }
-            Spacer()
+                .font(Font.custom("SFProRounded-Bold", size: 28))
+            Spacer().frame(width:5)
             
             Toggle("", isOn: $isReflect)
-                .toggleStyle(SwitchToggleStyle(tint: .buttonPink))
+                .toggleStyle(SwitchToggleStyle(tint: .backPink))
+                .padding()
             
-            
-            Spacer().frame(width:65)
+            Spacer().frame(width:41)
             
             Text("Reflect")
-                .font(.system(size: 23, weight: isReflect ? .heavy : .regular))
-                .foregroundColor(isReflect ? .buttonBlue : .gray)
+                .foregroundColor(isReflect ? .releaseToggle : .gray)
                 .onTapGesture{
                     if !isReflect{
                         isReflect.toggle()
                     }
                 }
-            Spacer().frame(width:35)
+                .font(Font.custom("SFProRounded-Bold", size: 28))
+            Spacer().frame(width:5)
+            
+            Spacer().frame(width:22)
         }
     }
 }
@@ -130,8 +132,9 @@ struct HomeView: View {
                 Spacer().frame(width: 20)
                 
             }
-            
+
             Image(isReflect ? "releaseLogo" : "reflectLogo")
+
                 .resizable()
                 .frame(width: 240, height: 150)
             
