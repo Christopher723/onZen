@@ -5,9 +5,9 @@
         "color-space" : "display-p3",
         "components" : {
           "alpha" : "1.000",
-          "blue" : "0xC0",
-          "green" : "0x23",
-          "red" : "0xB0"
+          "blue" : "0xC7",
+          "green" : "0x00",
+          "red" : "0xC0"
         }
       },
       "idiom" : "universal"
@@ -23,9 +23,49 @@
         "color-space" : "display-p3",
         "components" : {
           "alpha" : "1.000",
-          "blue" : "0.490",
-          "green" : "0.077",
-          "red" : "0.447"
+          "blue" : "0x81",
+          "green" : "0x00",
+          "red" : "0x7D"
+        }
+      },
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "contrast",
+          "value" : "high"
+        }
+      ],
+      "color" : {
+        "color-space" : "display-p3",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0xDB",
+          "green" : "0x27",
+          "red" : "0xD5"
+        }
+      },
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        },
+        {
+          "appearance" : "contrast",
+          "value" : "high"
+        }
+      ],
+      "color" : {
+        "color-space" : "display-p3",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0x94",
+          "green" : "0x06",
+          "red" : "0x90"
         }
       },
       "idiom" : "universal"
