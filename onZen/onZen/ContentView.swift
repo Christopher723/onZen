@@ -20,7 +20,7 @@
 import SwiftUI
 
 enum ActiveSheet: Identifiable {
-    case first, second, who
+    case first, second, who, none
     
     var id: Int {
         hashValue
@@ -51,13 +51,15 @@ struct ContentView: View {
         .sheet(item: $activeSheet) { item in
             switch item {
             case .first:
-                sheetView()
+                sheetView(activeSheet: $activeSheet)
             case .second:
-                infoSheet(isReflect: $isReflect)
+                infoSheet(isReflect: $isReflect,activeSheet: $activeSheet)
             case .who:
                 screen2(activeSheet: $activeSheet, inputText: $inputText)
                     .presentationDetents([.medium])
                     .presentationDragIndicator(.automatic)
+            case .none:
+                ContentView(inputText: "")
             }}
 
 
@@ -129,7 +131,7 @@ struct HomeView: View {
                 
             }
             
-            Image(isReflect ? "test2" : "test")
+            Image(isReflect ? "releaseLogo" : "reflectLogo")
                 .resizable()
                 .frame(width: 240, height: 150)
             

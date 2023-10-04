@@ -11,14 +11,24 @@ struct infoSheet: View {
     @Binding var isReflect: Bool
     var colors: [Color] = [.red, .orange, .yellow, .green, .blue, .purple]
     
+    @Binding var activeSheet: ActiveSheet?
+    
+
+    
     
     var body: some View {
         ZStack{
             
             Color(.backgroundReflect)
                 .edgesIgnoringSafeArea(.all)
+            sheetDismiss(activeSheet: $activeSheet)
+            
+            
             VStack{
+                
+                    
                 HStack {
+                    
                     Image(systemName: "peacesign")
                         .resizable()
                         .frame(width: 30, height: 30)
@@ -98,5 +108,5 @@ struct infoSheet: View {
 
 
 #Preview{
-    infoSheet(isReflect: .constant(false))
+    infoSheet(isReflect: .constant(false), activeSheet: .constant(nil))
 }

@@ -24,6 +24,8 @@ struct screen2: View{
                 
                 
                 Spacer().frame(height: 25)
+                sheetDismiss(activeSheet: $activeSheet)
+                    .padding(EdgeInsets(top: 80, leading: 10, bottom: 0, trailing: 10))
                 Text("\(inputText)")
                     .font(.system(size: 23, weight: .heavy))
                     .lineLimit(2, reservesSpace: true)
@@ -55,3 +57,7 @@ struct screen2: View{
     }
 }
 
+
+#Preview {
+    screen2(activeSheet: .constant(nil), inputText: .constant("WHOHURTYOUTEST"))
+}

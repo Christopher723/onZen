@@ -14,15 +14,17 @@ struct sheetView: View {
     let date = Date()
     let df = DateFormatter()
     var colors: [Color] = [.red, .orange, .yellow, .green, .blue, .purple]
-    
+    @Binding var activeSheet: ActiveSheet?
     
     var body: some View {
         ZStack{
             Color.black
                 .edgesIgnoringSafeArea(.all)
-            
+            sheetDismiss(activeSheet: $activeSheet)
+                .padding()
            
             VStack{
+                
                 VStack(spacing: 50){
                     
                     Spacer()
@@ -63,5 +65,5 @@ struct sheetView: View {
     
 }
 #Preview{
-    sheetView()
+    sheetView(activeSheet: .constant(nil))
 }
