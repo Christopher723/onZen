@@ -18,6 +18,7 @@
 		3A0577902ACB329400E38F6E /* exitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A05778F2ACB329400E38F6E /* exitButton.swift */; };
 		3A0577922ACB329C00E38F6E /* questionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0577912ACB329C00E38F6E /* questionButton.swift */; };
 		3A0577942ACB32CE00E38F6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0577932ACB32CE00E38F6E /* Assets.xcassets */; };
+		3AD18B1B2ACDD51700C19450 /* affirmations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD18B1A2ACDD51700C19450 /* affirmations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		3A05778F2ACB329400E38F6E /* exitButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = exitButton.swift; sourceTree = "<group>"; };
 		3A0577912ACB329C00E38F6E /* questionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = questionButton.swift; sourceTree = "<group>"; };
 		3A0577932ACB32CE00E38F6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AD18B1A2ACDD51700C19450 /* affirmations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = affirmations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				3A0577742ACB2FE000E38F6E /* ContentView.swift */,
 				3A0577802ACB319100E38F6E /* screen2.swift */,
 				3A0577842ACB31BD00E38F6E /* Sheet.swift */,
+				3AD18B1A2ACDD51700C19450 /* affirmations.swift */,
 				3A0577862ACB320500E38F6E /* infoSheet.swift */,
 				3A0577932ACB32CE00E38F6E /* Assets.xcassets */,
 				3A0577882ACB323400E38F6E /* Buttons */,
@@ -174,6 +177,7 @@
 				3A0577922ACB329C00E38F6E /* questionButton.swift in Sources */,
 				3A0577902ACB329400E38F6E /* exitButton.swift in Sources */,
 				3A0577852ACB31BD00E38F6E /* Sheet.swift in Sources */,
+				3AD18B1B2ACDD51700C19450 /* affirmations.swift in Sources */,
 				3A05778E2ACB329000E38F6E /* affirmButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
