@@ -16,35 +16,42 @@ struct screen2: View{
     
     
     var body: some View{
-        VStack{
-
+        ZStack{
+            Color(.pageBack)
+                .ignoresSafeArea()
             
-            Spacer()
-            Text("\(inputText)")
-                .font(.system(size: 23, weight: .heavy))
-            Spacer()
+            VStack{
+                
+                
+                Spacer().frame(height: 25)
+                Text("\(inputText)")
+                    .font(.system(size: 23, weight: .heavy))
+                    .lineLimit(2, reservesSpace: true)
 
-            HStack(spacing:20){
+                Spacer().frame(height:15)
+                
+                HStack(){
+                    Spacer()
+                    TextField("", text:$test, axis: .vertical)
+                        .font(.system(size: 33, weight: .heavy))
+                        .lineLimit(8, reservesSpace: true)
+                        .focused($isUsernameFocused)
+                        .padding()
+                    
+                    
+                    
+                    
+                }.onAppear{
+                    isUsernameFocused = true
+                }
+                
+                
+                
+                
                 Spacer()
-                TextField("", text:$test, axis: .vertical)
-                    .lineLimit(8, reservesSpace: true)
-                    .focused($isUsernameFocused)
-                    
-                    
                 
-                
-            }.onAppear{
-                isUsernameFocused = true
             }
-           
-            
-            
-            
-            Spacer()
-                        
         }
-
     }
 }
-
 
