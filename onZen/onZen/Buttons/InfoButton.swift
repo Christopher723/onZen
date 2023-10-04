@@ -16,10 +16,10 @@ struct InfoButton: View {
         Button{
             activeSheet = .second
         }label: {
-            Image(systemName: "questionmark.circle.fill" )
+            Image(systemName: "questionmark.circle" )
                 .resizable()
                 .frame(width:40, height:40)
-                .foregroundColor(.blue)
+                .foregroundColor(.pageBack)
             
         }
     }
