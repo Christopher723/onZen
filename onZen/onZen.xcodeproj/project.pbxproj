@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
 		3A0577732ACB2FE000E38F6E /* onZenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0577722ACB2FE000E38F6E /* onZenApp.swift */; };
 		3A0577752ACB2FE000E38F6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0577742ACB2FE000E38F6E /* ContentView.swift */; };
 		3A05777A2ACB2FE100E38F6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0577792ACB2FE100E38F6E /* Preview Assets.xcassets */; };
@@ -54,15 +53,6 @@
 		3A0577662ACB2FE000E38F6E = {
 			isa = PBXGroup;
 			children = (
-				15F0689D2ACDE8B400243F3A /* SF-Pro-Rounded-Black.otf */,
-				15F068972ACDE8B400243F3A /* SF-Pro-Rounded-Bold.otf */,
-				15F0689E2ACDE8B400243F3A /* SF-Pro-Rounded-Heavy.otf */,
-				15F0689A2ACDE8B400243F3A /* SF-Pro-Rounded-Light.otf */,
-				15F068992ACDE8B400243F3A /* SF-Pro-Rounded-Medium.otf */,
-				15F0689B2ACDE8B400243F3A /* SF-Pro-Rounded-Regular.otf */,
-				15F0689F2ACDE8B400243F3A /* SF-Pro-Rounded-Semibold.otf */,
-				15F0689C2ACDE8B400243F3A /* SF-Pro-Rounded-Thin.otf */,
-				15F068982ACDE8B400243F3A /* SF-Pro-Rounded-Ultralight.otf */,
 				3A0577712ACB2FE000E38F6E /* onZen */,
 				3A0577702ACB2FE000E38F6E /* Products */,
 			);
@@ -171,10 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A05777A2ACB2FE100E38F6E /* Preview Assets.xcassets in Resources */,
-				15F068A72ACDE8B400243F3A /* SF-Pro-Rounded-Heavy.otf in Resources */,
-				15F068A12ACDE8B400243F3A /* SF-Pro-Rounded-Ultralight.otf in Resources */,
 				3A0577942ACB32CE00E38F6E /* Assets.xcassets in Resources */,
-				15F068A62ACDE8B400243F3A /* SF-Pro-Rounded-Black.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

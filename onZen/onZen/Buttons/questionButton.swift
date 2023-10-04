@@ -31,9 +31,14 @@ struct QuestionButton: View {
                     .frame(width:350, height: 60)
                     .foregroundColor(isReflect ? Color.white : Color.black)
                     .background(isReflect ? Color.backPink : Color.backBlue)
-                    .border(Color.black, width: 2)
+                    .border(isReflect ? Color.white : Color.black, width: 2)
+                    .font(Font.custom("SFProRounded-Medium", size: 24))
                     
+                
             }
         }
     }
+}
+#Preview {
+    QuestionButton(inputText: .constant(""), isReflect: .constant(false), activeSheet: .constant(nil), label: "WHO", question: "WHAT HURT YOU")
 }
