@@ -18,8 +18,9 @@ struct InfoButton: View {
         }label: {
             Image(systemName: "questionmark.circle" )
                 .resizable()
-                .frame(width:40, height:40)
+                .frame(width:30, height:30)
                 .foregroundColor(.pageBack)
+            
             
         }
     }

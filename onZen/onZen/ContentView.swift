@@ -136,7 +136,7 @@ struct HomeView: View {
             Image(isReflect ? "releaseLogo" : "reflectLogo")
 
                 .resizable()
-                .frame(width: 240, height: 150)
+                .frame(width: 270, height: 150)
             
             
             

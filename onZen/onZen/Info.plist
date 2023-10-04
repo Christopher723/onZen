@@ -5,6 +5,7 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>SF-Pro-Rounded-Bold.otf</string>
+		<string>SF-Pro-Rounded-Medium.otf</string>
 	</array>
 </dict>
 </plist>
