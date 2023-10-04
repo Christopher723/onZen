@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "zenCircle.png",
+      "filename" : "OnZen.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -12,7 +12,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "OnZenCircle.png",
+      "filename" : "OnZenDM.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -23,7 +23,7 @@
           "value" : "high"
         }
       ],
-      "filename" : "OnZenCircle 1.png",
+      "filename" : "OnZenCM.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -38,7 +38,7 @@
           "value" : "high"
         }
       ],
-      "filename" : "OnZenCircle 2.png",
+      "filename" : "OnZenDMCM.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
