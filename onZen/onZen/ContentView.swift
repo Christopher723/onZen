@@ -53,7 +53,7 @@ struct ContentView: View {
             case .first:
                 sheetView()
             case .second:
-                infoSheet()
+                infoSheet(isReflect: $isReflect)
             case .who:
                 screen2(activeSheet: $activeSheet, inputText: $inputText)
                     .presentationDetents([.medium])
