@@ -44,6 +44,7 @@ struct sheetView: View {
                             .foregroundColor(colors.randomElement())
                             .frame(width: 50, height: 40)
                         
+                        
                     }
                     Spacer()
                     HStack{

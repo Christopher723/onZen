@@ -19,7 +19,7 @@ struct infoSheet: View {
     var body: some View {
         ZStack{
             
-            Color(.backgroundReflect)
+            Color(.black)
                 .edgesIgnoringSafeArea(.all)
             sheetDismiss(activeSheet: $activeSheet)
             
@@ -36,7 +36,7 @@ struct infoSheet: View {
                     
                     
                     Text("You're OnZen")
-                        .colorInvert()
+                        .foregroundColor(.infoSheetText)
                         .font(Font.system(size: 40))
                         .padding(5)
                     Image(systemName: "peacesign")
@@ -46,47 +46,47 @@ struct infoSheet: View {
                 }
                 
                 Text("Anzen")
-                    .colorInvert()
+                    .foregroundColor(.infoSheetText)
                     .font(Font.system(size:25))
                 
                 Text("(Japanese Word for Safety)")
-                    .colorInvert()
-                    
+                    .foregroundColor(.infoSheetText)
+               
                     
                 
                 Text("OnZen is a calm and welcoming safe space that allows users to explore their thoughts without saving them. A secure place to speak your truth with peace of mind.")
                     .multilineTextAlignment(.center)
-                    .foregroundColor(.white)
+                    .foregroundColor(.infoSheetText)
                     .padding(5)
                 Text("Use OnZen for both reflecting and releasing thoughts.")
                     .multilineTextAlignment(.center)
-                    .colorInvert()
+                    .foregroundColor(.infoSheetText)
                 Text("Click on any text box and starting writing what's on your mind. Let it all out, good or bad. OnZen is a place where you can express emotions with ease.")
                     .multilineTextAlignment(.center)
-                    .colorInvert()
+                    .foregroundColor(.infoSheetText)
                     .padding(5)
                 Text("OnZen does not save and/or share any personal information or data. We guarantee that your privacy is secure OnZen. It's for you and your eyes only.")
                     .multilineTextAlignment(.center)
                     .padding(5)
-                    .colorInvert()
+                    .foregroundColor(.infoSheetText)
                 Text("Please remember")
-                    .colorInvert()
+                    .foregroundColor(.infoSheetText)
                 Text("YOU MATTER")
-                    .colorInvert()
+                    .foregroundColor(.infoSheetText)
                     
                 Text("If you ever need to reach out...")
                     .padding(5)
-                    .colorInvert()
+                    .foregroundColor(.infoSheetText)
                 Text("Text HOME to 741741 to connect to a volunteer crisis counselor.")
                     .multilineTextAlignment(.center)
                     .padding(5)
-                    .colorInvert()
+                    .foregroundColor(.infoSheetText)
                 Text("Call the YouthLine hotline (877-968-8491) or text teen2teen to 839863")
                     .multilineTextAlignment(.center)
                     .padding(5)
-                    .colorInvert()
+                    .foregroundColor(.infoSheetText)
                 Text("For more resources and information please visit")
-                    .foregroundColor(.white)
+                    .foregroundColor(.infoSheetText)
                 Text("https://blog.opencounseling.com/hotlines-us/")
                     
                 

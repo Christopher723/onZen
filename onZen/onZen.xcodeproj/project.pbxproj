@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24DE3AC82ACDEC1A00C0EC24 /* SF-Pro-Rounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 24DE3AC72ACDEC1A00C0EC24 /* SF-Pro-Rounded-Medium.otf */; };
 		3A0577732ACB2FE000E38F6E /* onZenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0577722ACB2FE000E38F6E /* onZenApp.swift */; };
 		3A0577752ACB2FE000E38F6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0577742ACB2FE000E38F6E /* ContentView.swift */; };
 		3A05777A2ACB2FE100E38F6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0577792ACB2FE100E38F6E /* Preview Assets.xcassets */; };
@@ -23,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2416521F2ACDE5D00022EE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		24DE3AC62ACDE85100C0EC24 /* SF-Pro-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Bold.otf"; sourceTree = "<group>"; };
+		24DE3AC72ACDEC1A00C0EC24 /* SF-Pro-Rounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Medium.otf"; path = "../../../../Desktop/SF-Pro-Rounded-Medium.otf"; sourceTree = "<group>"; };
 		3A05776F2ACB2FE000E38F6E /* onZen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onZen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A0577722ACB2FE000E38F6E /* onZenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onZenApp.swift; sourceTree = "<group>"; };
 		3A0577742ACB2FE000E38F6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +73,9 @@
 		3A0577712ACB2FE000E38F6E /* onZen */ = {
 			isa = PBXGroup;
 			children = (
+				24DE3AC72ACDEC1A00C0EC24 /* SF-Pro-Rounded-Medium.otf */,
+				24DE3AC62ACDE85100C0EC24 /* SF-Pro-Rounded-Bold.otf */,
+				2416521F2ACDE5D00022EE9B /* Info.plist */,
 				3A0577722ACB2FE000E38F6E /* onZenApp.swift */,
 				3A0577742ACB2FE000E38F6E /* ContentView.swift */,
 				3A0577802ACB319100E38F6E /* screen2.swift */,
@@ -160,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24DE3AC82ACDEC1A00C0EC24 /* SF-Pro-Rounded-Medium.otf in Resources */,
 				3A05777A2ACB2FE100E38F6E /* Preview Assets.xcassets in Resources */,
 				3A0577942ACB32CE00E38F6E /* Assets.xcassets in Resources */,
 			);
@@ -318,6 +326,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"onZen/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = onZen/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -346,6 +355,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"onZen/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = onZen/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
