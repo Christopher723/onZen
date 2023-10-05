@@ -23,12 +23,14 @@ struct screen2: View{
             VStack{
                 
                 
-                Spacer().frame(height: 25)
+                Spacer().frame(height: 20)
                 sheetDismiss(activeSheet: $activeSheet)
-                    .padding(EdgeInsets(top: 80, leading: 10, bottom: 0, trailing: 10))
+                    .padding(EdgeInsets(top: 70, leading: 10, bottom: 0, trailing: 10))
+                
                 Text("\(inputText)")
                     .font(.system(size: 23, weight: .heavy))
                     .lineLimit(2, reservesSpace: true)
+                    .padding(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))
 
                 Spacer().frame(height:15)
                 
