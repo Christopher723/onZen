@@ -66,7 +66,7 @@ struct infoSheet: View {
                     .padding(5)
                 Text("OnZen does not save or share any personal information and data. We guarantee that your privacy is secure OnZen. It's for you and your eyes only.")
                     .multilineTextAlignment(.center)
-                    .padding(5)
+                    .padding(10)
                     .foregroundColor(.infoSheetText)
                 Text("Please remember")
                     .foregroundColor(.infoSheetText)
@@ -74,25 +74,32 @@ struct infoSheet: View {
                     .foregroundColor(.infoSheetText)
                     
                 Text("If you ever need to reach out...")
-                    .padding(2)
-                    .foregroundColor(.infoSheetText)
-                Text("Text HOME to 741741 to connect to a volunteer crisis counselor.")
-                    .multilineTextAlignment(.center)
                     .padding(5)
                     .foregroundColor(.infoSheetText)
-                Text("For the YouthLine hotline CALL (877-968-8491) or text teen2teen to 839863")
-                    .multilineTextAlignment(.center)
-                    .padding(5)
+                Text("To connect to a volunteer crisis counselor")
                     .foregroundColor(.infoSheetText)
+                HStack{
+                    Text("Text HOME to")
+                        .multilineTextAlignment(.center)
+                        .foregroundColor(.infoSheetText)
+                    Link("741741", destination: URL(string: "tel:741741")!)
+                }
+                VStack{
+                    Text("For the YouthLine hotline CALL:")
+                        .multilineTextAlignment(.center)
+                        .foregroundColor(.infoSheetText)
+                    Link("(877) 968-8491", destination: URL(string: "tel:8779688491")!)
+                }.padding()
                 Text("For more resources and information please visit")
                     .foregroundColor(.infoSheetText)
                 Text("https://blog.opencounseling.com/hotlines-us/")
                     
+              
+
                 
                 
                 
-                
-                    
+                     //(877-968-8491) or text teen2teen to 839863")
                 
                 Spacer()
                 }
