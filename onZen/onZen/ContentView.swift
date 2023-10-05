@@ -36,7 +36,6 @@ struct ContentView: View {
     
     
     
-    
     var body: some View {
         ZStack{
             
@@ -145,23 +144,23 @@ struct HomeView: View {
             Spacer()
             VStack{
                 QuestionButton(inputText: $inputText, isReflect: $isReflect, activeSheet: $activeSheet, label: "Who?", question: isReflect ?
-                               "Who did something nice for you today?":
-                                "Who hurt you?")
+                               "Who inspired you to want to reflect?":
+                                "Who's responsible for this madness?")
                 QuestionButton(inputText: $inputText, isReflect: $isReflect,activeSheet: $activeSheet,
                                label: "What?", question: isReflect ?
-                    "What was the best part of your day?":
-                    "What happened?")
+                    "What are some things you are grateful for?":
+                    "What did they do and/or say to you?")
                 QuestionButton(inputText: $inputText,isReflect: $isReflect,activeSheet: $activeSheet, label: "When?", question: isReflect ?
-                    "When was the best part of your day?":
-                    "When did this happen?"
+                    "When did you realize this?":
+                    "When do these moments usually arise?"
                     
                 )
                 QuestionButton(inputText: $inputText, isReflect: $isReflect,activeSheet: $activeSheet, label: "Where?", question: isReflect ?
-                    "Where is somewhere you had fun?":
-                    "Where did this happen?")
+                    "Where do you see yourself in the future, near and far?":
+                    "Where do you find peace when you feel this way?")
                 QuestionButton(inputText: $inputText, isReflect: $isReflect,activeSheet: $activeSheet, label: "Why?", question: isReflect ?
-                    "Why did you have such a good day?":
-                    "Why did this happen?")
+                    "Why/How is it important to reflect on your day?":
+                    "Why/How is it good to release your bad thoughts?")
             
                 
             }

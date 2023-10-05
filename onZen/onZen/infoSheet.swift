@@ -15,7 +15,6 @@ struct infoSheet: View {
     
 
     
-    
     var body: some View {
         ZStack{
             
@@ -25,7 +24,7 @@ struct infoSheet: View {
             
             
             VStack{
-                
+            
                     
                 HStack {
                     
@@ -54,18 +53,18 @@ struct infoSheet: View {
                
                     
                 
-                Text("OnZen is a calm and welcoming safe space that allows users to explore their thoughts without saving them. A secure place to speak your truth with peace of mind.")
+                Text("OnZen is a calm and welcoming safe space that allows users to explore their thoughts without saving them. A secure place to speak your truth with a peace of mind.")
                     .multilineTextAlignment(.center)
                     .foregroundColor(.infoSheetText)
                     .padding(5)
-                Text("Use OnZen for both reflecting and releasing thoughts.")
+                Text("OnZen can be used for both reflecting and/or releasing your feelings.")
                     .multilineTextAlignment(.center)
                     .foregroundColor(.infoSheetText)
-                Text("Click on any text box and starting writing what's on your mind. Let it all out, good or bad. OnZen is a place where you can express emotions with ease.")
+                Text("Start by clicking on a text box and type away what's on your mind. Let it out, good and/or bad. OnZen is always here for you.")
                     .multilineTextAlignment(.center)
                     .foregroundColor(.infoSheetText)
                     .padding(5)
-                Text("OnZen does not save and/or share any personal information or data. We guarantee that your privacy is secure OnZen. It's for you and your eyes only.")
+                Text("OnZen does not save or share any personal information and data. We guarantee that your privacy is secure OnZen. It's for you and your eyes only.")
                     .multilineTextAlignment(.center)
                     .padding(5)
                     .foregroundColor(.infoSheetText)
@@ -75,13 +74,13 @@ struct infoSheet: View {
                     .foregroundColor(.infoSheetText)
                     
                 Text("If you ever need to reach out...")
-                    .padding(5)
+                    .padding(2)
                     .foregroundColor(.infoSheetText)
                 Text("Text HOME to 741741 to connect to a volunteer crisis counselor.")
                     .multilineTextAlignment(.center)
                     .padding(5)
                     .foregroundColor(.infoSheetText)
-                Text("Call the YouthLine hotline (877-968-8491) or text teen2teen to 839863")
+                Text("For the YouthLine hotline CALL (877-968-8491) or text teen2teen to 839863")
                     .multilineTextAlignment(.center)
                     .padding(5)
                     .foregroundColor(.infoSheetText)
