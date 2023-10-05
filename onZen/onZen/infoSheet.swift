@@ -66,7 +66,7 @@ struct infoSheet: View {
                     .padding(5)
                 Text("OnZen does not save or share any personal information and data. We guarantee that your privacy is secure OnZen. It's for you and your eyes only.")
                     .multilineTextAlignment(.center)
-                    .padding(10)
+                    .padding(5)
                     .foregroundColor(.infoSheetText)
                 Text("Please remember")
                     .foregroundColor(.infoSheetText)
@@ -74,16 +74,17 @@ struct infoSheet: View {
                     .foregroundColor(.infoSheetText)
                     
                 Text("If you ever need to reach out...")
-                    .padding(5)
-                    .foregroundColor(.infoSheetText)
-                Text("To connect to a volunteer crisis counselor")
+                    .padding(10)
                     .foregroundColor(.infoSheetText)
                 HStack{
-                    Text("Text HOME to")
-                        .multilineTextAlignment(.center)
-                        .foregroundColor(.infoSheetText)
-                    Link("741741", destination: URL(string: "tel:741741")!)
-                }
+                                    Text("Text HOME to")
+                                        .multilineTextAlignment(.center)
+                                        .foregroundColor(.infoSheetText)
+                                    Link("741741", destination: URL(string: "tel:741741")!)
+                                }
+                Text("to connect to a volunteer crisis counselor")
+                    .foregroundColor(.infoSheetText)
+                
                 VStack{
                     Text("For the YouthLine hotline CALL:")
                         .multilineTextAlignment(.center)
