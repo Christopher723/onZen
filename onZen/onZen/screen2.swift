@@ -28,7 +28,7 @@ struct screen2: View{
                     .padding(EdgeInsets(top: 70, leading: 10, bottom: 0, trailing: 10))
                 
                 Text(inputText)
-                    .font(.system(size: 23, weight: .heavy))
+                    .font(.system(size: 25, weight: .heavy))
                     .multilineTextAlignment(.center)
                     .padding(EdgeInsets(top: -10, leading: 10, bottom: 0, trailing: 10))
                 
