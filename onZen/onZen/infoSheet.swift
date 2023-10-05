@@ -80,7 +80,7 @@ struct infoSheet: View {
                                     Text("Text HOME to")
                                         .multilineTextAlignment(.center)
                                         .foregroundColor(.infoSheetText)
-                                    Link("741741", destination: URL(string: "tel:741741")!)
+                                    Link("741741", destination: URL(string: "sms:741741")!)
                                 }
                 Text("to connect to a volunteer crisis counselor")
                     .foregroundColor(.infoSheetText)
