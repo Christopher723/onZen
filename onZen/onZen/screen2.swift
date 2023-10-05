@@ -50,7 +50,7 @@ struct screen2: View{
                         .lineLimit(8, reservesSpace: true)
                         .focused($isUsernameFocused)
                         .padding()
-                    
+                        .foregroundColor(.black)
                     
                     
                     
