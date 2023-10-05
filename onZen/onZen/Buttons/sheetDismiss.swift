@@ -20,7 +20,7 @@ struct sheetDismiss: View{
                 }
             label:{
                 Image(systemName:"xmark")
-                    .foregroundColor(Color(.white))
+                    .foregroundColor(Color(.black))
                     .imageScale(.large)
                     .frame(width:44, height:44)
             }
