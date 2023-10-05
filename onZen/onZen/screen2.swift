@@ -27,11 +27,19 @@ struct screen2: View{
                 sheetDismiss(activeSheet: $activeSheet)
                     .padding(EdgeInsets(top: 70, leading: 10, bottom: 0, trailing: 10))
                 
-                Text("\(inputText)")
+                Text(inputText)
                     .font(.system(size: 23, weight: .heavy))
-                    .lineLimit(2, reservesSpace: true)
-                    .padding(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))
-
+                    .multilineTextAlignment(.center)
+                    .padding(EdgeInsets(top: -10, leading: 10, bottom: 0, trailing: 10))
+                
+                
+                
+                
+                
+                
+                
+                
+                
                 Spacer().frame(height:15)
                 
                 HStack(){
@@ -61,5 +69,5 @@ struct screen2: View{
 
 
 #Preview {
-    screen2(activeSheet: .constant(nil), inputText: .constant("WHOHURTYOUTEST"))
+    screen2(activeSheet: .constant(nil), inputText: .constant("WHOHURTYOUTEST BUT T"))
 }
