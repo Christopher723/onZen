@@ -31,6 +31,7 @@ struct screen2: View{
                     .font(.system(size: 25, weight: .heavy))
                     .multilineTextAlignment(.center)
                     .padding(EdgeInsets(top: -10, leading: 10, bottom: 0, trailing: 10))
+                    .foregroundColor(.black)
                 
                 
                 
