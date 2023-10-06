@@ -21,12 +21,18 @@ struct screen2: View{
                 .ignoresSafeArea()
             
             VStack{
-                
-                
                 Spacer().frame(height: 20)
-                sheetDismiss(activeSheet: $activeSheet)
-                    .padding(EdgeInsets(top: 70, leading: 10, bottom: 0, trailing: 10))
-                
+                HStack{
+                    Text("Done")
+                        .padding(EdgeInsets(top: 70, leading: 10, bottom: 0, trailing: 10))
+                        .font(.system(size: 25, weight: .medium))
+                        .foregroundColor(.blue)
+                        .onTapGesture {
+                            isUsernameFocused.toggle()
+                        }
+                    sheetDismiss(activeSheet: $activeSheet)
+                        .padding(EdgeInsets(top: 70, leading: 10, bottom: 0, trailing: 10))
+                }
                 Text(inputText)
                     .font(.system(size: 25, weight: .heavy))
                     .multilineTextAlignment(.center)
