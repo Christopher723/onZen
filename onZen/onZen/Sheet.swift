@@ -20,7 +20,7 @@ struct sheetView: View {
         ZStack{
             Color.black
                 .edgesIgnoringSafeArea(.all)
-            sheetDismiss(activeSheet: $activeSheet)
+            sheetDismiss(activeSheet: $activeSheet, xColor: .white)
                 .padding()
            
             VStack{

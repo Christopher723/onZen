@@ -20,7 +20,7 @@ struct infoSheet: View {
             
             Color(.black)
                 .edgesIgnoringSafeArea(.all)
-            sheetDismiss(activeSheet: $activeSheet)
+            sheetDismiss(activeSheet: $activeSheet, xColor: .white)
             
             
             VStack{

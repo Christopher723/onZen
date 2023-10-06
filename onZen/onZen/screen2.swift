@@ -30,7 +30,7 @@ struct screen2: View{
                         .onTapGesture {
                             isUsernameFocused.toggle()
                         }
-                    sheetDismiss(activeSheet: $activeSheet)
+                    sheetDismiss(activeSheet: $activeSheet, xColor: .black)
                         .padding(EdgeInsets(top: 70, leading: 10, bottom: 0, trailing: 10))
                 }
                 Text(inputText)

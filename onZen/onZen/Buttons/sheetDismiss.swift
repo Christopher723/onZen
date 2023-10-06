@@ -9,7 +9,7 @@ import SwiftUI
 
 struct sheetDismiss: View{
     @Binding var activeSheet: ActiveSheet?
-    
+    var xColor: Color
     var body: some View {
         VStack{
             HStack{
@@ -20,7 +20,7 @@ struct sheetDismiss: View{
                 }
             label:{
                 Image(systemName:"xmark")
-                    .foregroundColor(Color(.black))
+                    .foregroundColor(xColor)
                     .imageScale(.large)
                     .frame(width:44, height:44)
             }

@@ -16,7 +16,6 @@
 		3A0577872ACB320500E38F6E /* infoSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0577862ACB320500E38F6E /* infoSheet.swift */; };
 		3A05778C2ACB328A00E38F6E /* InfoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A05778B2ACB328A00E38F6E /* InfoButton.swift */; };
 		3A05778E2ACB329000E38F6E /* affirmButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A05778D2ACB329000E38F6E /* affirmButton.swift */; };
-		3A0577902ACB329400E38F6E /* exitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A05778F2ACB329400E38F6E /* exitButton.swift */; };
 		3A0577922ACB329C00E38F6E /* questionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0577912ACB329C00E38F6E /* questionButton.swift */; };
 		3A0577942ACB32CE00E38F6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0577932ACB32CE00E38F6E /* Assets.xcassets */; };
 		3AD18B1B2ACDD51700C19450 /* affirmations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD18B1A2ACDD51700C19450 /* affirmations.swift */; };
@@ -34,7 +33,6 @@
 		3A0577862ACB320500E38F6E /* infoSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoSheet.swift; sourceTree = "<group>"; };
 		3A05778B2ACB328A00E38F6E /* InfoButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoButton.swift; sourceTree = "<group>"; };
 		3A05778D2ACB329000E38F6E /* affirmButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = affirmButton.swift; sourceTree = "<group>"; };
-		3A05778F2ACB329400E38F6E /* exitButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = exitButton.swift; sourceTree = "<group>"; };
 		3A0577912ACB329C00E38F6E /* questionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = questionButton.swift; sourceTree = "<group>"; };
 		3A0577932ACB32CE00E38F6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AD18B1A2ACDD51700C19450 /* affirmations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = affirmations.swift; sourceTree = "<group>"; };
@@ -98,7 +96,6 @@
 				15F068AA2ACE04E800243F3A /* toggleSwitch.swift */,
 				3A05778B2ACB328A00E38F6E /* InfoButton.swift */,
 				3A05778D2ACB329000E38F6E /* affirmButton.swift */,
-				3A05778F2ACB329400E38F6E /* exitButton.swift */,
 				3A0577912ACB329C00E38F6E /* questionButton.swift */,
 				3AD18B1E2ACDE5BF00C19450 /* sheetDismiss.swift */,
 			);
@@ -182,7 +179,6 @@
 				3A0577812ACB319100E38F6E /* screen2.swift in Sources */,
 				3A0577872ACB320500E38F6E /* infoSheet.swift in Sources */,
 				3A0577922ACB329C00E38F6E /* questionButton.swift in Sources */,
-				3A0577902ACB329400E38F6E /* exitButton.swift in Sources */,
 				3AD18B1F2ACDE5BF00C19450 /* sheetDismiss.swift in Sources */,
 				3A0577852ACB31BD00E38F6E /* Sheet.swift in Sources */,
 				3AD18B1B2ACDD51700C19450 /* affirmations.swift in Sources */,
