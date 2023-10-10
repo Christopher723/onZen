@@ -53,7 +53,7 @@ struct infoSheet: View {
                
                     
                 
-                Text("OnZen is a calm and welcoming safe space that allows users to explore their thoughts without saving them. A secure place to speak your truth with a peace of mind.")
+                Text("OnZen is a calm and welcoming safe space that allows users to explore their thoughts without saving them. A secure place to speak your truth.")
                     .multilineTextAlignment(.center)
                     .foregroundColor(.infoSheetText)
                     .padding(5)
