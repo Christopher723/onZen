@@ -53,18 +53,18 @@ struct infoSheet: View {
                
                     
                 
-                Text("OnZen is a calm and welcoming safe space that allows users to explore their thoughts without saving them. A secure place to speak your truth with a peace of mind.")
+                Text("OnZen is a calm and welcoming safe space that allows users to explore their thoughts without saving them. A secure place to speak your truth.")
                     .multilineTextAlignment(.center)
                     .foregroundColor(.infoSheetText)
                     .padding(5)
                 Text("OnZen can be used for both reflecting and/or releasing your feelings.")
                     .multilineTextAlignment(.center)
                     .foregroundColor(.infoSheetText)
-                Text("Start by clicking on a text box and type away what's on your mind. Let it out, good and/or bad. OnZen is always here for you.")
+                Text("Start by clicking on a text box and tell us what's on your mind. Let it out, good and/or bad. OnZen is always here for you.")
                     .multilineTextAlignment(.center)
                     .foregroundColor(.infoSheetText)
                     .padding(5)
-                Text("OnZen does not save or share any personal information and data. We guarantee that your privacy is secure OnZen. It's for you and your eyes only.")
+                Text("OnZen does not save or share any personal information and data. We guarantee your privacy is secure OnZen. It's for you and your eyes only.")
                     .multilineTextAlignment(.center)
                     .padding(5)
                     .foregroundColor(.infoSheetText)
